@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+a svg {
+  stroke: #e5e7eb;
+  transition: all 0.1s ease-in-out;
+}
+
+a svg:hover {
+  stroke: #3b82f6;
+}
+
+abbr {
+  cursor: help;
+}
+
+.techs a {
+  width: 54px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111827;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.techs a:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
+}
