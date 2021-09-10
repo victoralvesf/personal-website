@@ -6,7 +6,7 @@ app.listen(8080, () => {
 });
 
 // serve your css as static
-app.use(express.static(__dirname));
+app.use(express.static(__dirname + "/public"));
 
 app.get("/", (req, res) => {
   res.sendFile(__dirname + "/index.html");
